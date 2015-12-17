@@ -1,0 +1,24 @@
+<input id="a">
+<br>
+<input id="b">
+<br>
+<input id="c">
+<br>
+<input type="button" onclick="sprawdz();" value="Ok">
+<script>
+
+function sprawdz(){
+var a=parseInt(document.getElementById("a").value);
+var m=a;
+var b=parseInt(document.getElementById("b").value);
+var c=parseInt(document.getElementById("c").value);
+if(b>m){
+	m=b
+}
+if(c>m){
+	m=c
+   }
+alert(m);
+}
+</script>
+
